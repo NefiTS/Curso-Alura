@@ -1,0 +1,110 @@
+header {
+
+	background: #BBBBBB; /* cor cinza no header - cabeçalho */
+	padding: 20px 0; /* espaçamento */
+}
+.caixa {
+
+	position: relative;
+	width: 940px;/*largura padrao*/
+	margin: 0 auto;
+
+}
+
+nav {
+
+	position: absolute;
+	top:110px;
+	right:0;
+}
+
+nav li {
+
+	display: inline; /* alinha os nomes lado a lado */
+	margin: 0 0 0 15px; /* espacamento externo */
+}
+
+nav a {
+
+	text-transform: uppercase; /* deixa as letras maisculas sem prejudicar o texto*/
+	color: #000000; /* 6 zeros sao a ausencia das cores */
+	font-weight: bold; /* peso da fonte -> bold -> negrito */
+	font-size: 22px; /* tamanho da fonte */
+	text-decoration: none; /* nenhuma decoracao no texto -> sublinhado */
+
+}
+
+nav a:hover { /* quando o mouse esta por cima do elemento*/
+
+	color: #c78c19;
+	text-decoration: underline;
+}
+
+.produtos {
+
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px 0;
+}
+
+.produtos li {
+
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	margin: 0 1.15%;
+	padding: 30px 20px;
+	box-sizing: border-box;
+	border: 2px solid #000000;
+	border-radius: 10px;
+}
+
+.produtos li:hover { /* quando o usuário passa o cursor sobre o elemento */
+
+	border-color: #c78c19;
+	font-size: 40px;
+}
+
+.produtos li:active { /* enquanto estiver clicado mudar a cor */
+
+	border-color: #088C19; 
+}
+
+.produtos li:hover h2 { /* passando o mouse e aumentando o titulo h2 */
+
+	font-size: 34px;
+}
+
+.produtos h2 {
+
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.precoproduto {
+
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.precodoproduto {
+
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+footer {
+
+	text-align: center;
+	background: url("bg.jpg"); /* No CSS, ao referenciarmos o endereço de uma imagem, usamos o valor url no CSS, ao referenciarmos o endereço de uma imagem, usamos o valor url */
+	padding: 40px 0;
+}
+
+.copyright {
+
+	color: #ffffff;
+	font-size: 13px;
+	margin-top: 20px;
+}

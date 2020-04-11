@@ -1,0 +1,45 @@
+<!DOCTYPE html> <!-- Fala para o navegador que esta ultilizando a ultima versao do html -->
+
+<html lang = "pt-br"> <!-- Fala pro navegador que a linguagem padrao do site é portugues e a renderaziçao do conteúdo -->
+
+	<head> <!-- cabeça onde se poe as informaçoes para serem lidas pelo script e pelo navegador -->
+
+		<meta charset="UTF-8"> <!-- codigo para por as caracteres especias na letra -->
+
+		<title> Barbearia Alura</title> <!-- coloca no topo do site o titulo na aba exibida -->
+		
+		<link rel = "stylesheet" href = "style.css"> <!-- Para fazer isso, vamos usar a tag link, que é justamente a ligação de um arquivo para o outro. Vamos dizer o relacionamento desse link com a propriedade rel e o valor stylesheet, ou seja, folha de estilo, e vamos dizer onde o arquivo está, href, que é o endereço de referência: -->
+
+		
+
+	</head> <!-- fecha a cabeça -->
+
+	<body> <!-- Aqui é o que vai ser exibido no navegador -->
+		<header>
+			<h1 class = "titulo-principal">Barbearia Alura<h1>
+		</header>
+		<img id = "banner" src = "banner.jpg"> <!-- chama a imagem e cria um css  -->
+		<div class = "principal"> <!-- aqui faremos a divisão da primeira parte e da segunda -->
+		<h2 class="titulo-centralizado">Sobre a Barbearia Alura</h2> <!-- h1 serve para destacar o titulo, e text-align serve para alinhar por exemplo no centro-->
+
+		<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p> <!-- p significa paragrafo, strong deixa em negrito-->
+
+		<p id = "missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p> <!-- em serve para deixar em itálico, colocando umas ou mais tags dentro de uma, o html funciona assim demarcado ou marcando texto, o propio se chama hipermacação de texto, fonte size serve para alterar o tamanho da fonte-->
+
+		<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+	</div>
+	<div class="beneficios">
+
+		<h3 class="titulo-centralizado">Benefícios</h3>
+
+			<ul>
+				<li class="itens"> Atendimento aos Clientes</li>
+				<li class="itens"> Espaço Diferenciado</li>
+				<li class="itens"> Localização</li>
+				<li class="itens"> Profissionais Qualificados</li>
+			</ul> <!-- Uma lista sem ordem, caso contrario, lista ordenada, é só trocar para ol -->
+			
+			<img src="beneficios.jpg" class = "imagembeneficios">
+		</div>
+	</body> <!-- fecha o corpo -->
+</html> <!-- Fecha a renderização -->

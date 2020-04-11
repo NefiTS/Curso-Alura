@@ -1,0 +1,67 @@
+body {
+
+	background: #FFFFFF;/* aqui a cor e cinza no padrao hexadecimal */
+}
+
+#banner {
+
+	width: 100%;/* ajuste do tamanho da imagem para ficar a tela completa */
+}
+
+.principal {
+
+	background: #CCCCCC;
+	padding: 30px;
+}
+.titulo-principal {
+	padding-left: 20px;
+}
+
+.titulo-centralizado {
+		text-align : center;/* aqui estamos alinhando ao centro o h1 */
+
+}
+
+p {
+	
+	text-align: center; /* aqui estamos alinhando todos os textos dentro do paragrafo */
+
+}
+
+#missao {
+
+	font-size : 20px;/* tamanho da fonte, ID usa # */
+}
+
+em strong {
+
+	color: #FF0000; /* Podemos representar a cor vermelha com o nome red, o hexadecimal #FF0000 e o RGB rgb(255,0,0)*/ 
+}
+
+.itens {
+
+	font-style: italic; /* Class usa ( . ) em vez de criar 4 Para ou Id podemos marcar todos os itens com a mesma classe */
+}
+
+.beneficios {
+
+	background: #FFFFFF;
+	padding: 20px; /* espaçamento interno*/
+}
+
+ul {
+
+	display: inline-block; /* ocupa o tamanho do conteudo e deixa mecher na sua largura e espaçamentos */
+	vertical-align: top;
+	width: 20%;
+	margin-right : 15%;
+}
+
+.imagembeneficios {
+
+	width: 50%;
+	
+}
+
+
+
